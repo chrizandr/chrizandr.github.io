@@ -78,6 +78,19 @@
                                 <a class="btn btn-cta-secondary" href="http://github.com/chrizandr/ITS_Feedback" target="_blank"><i class="fa fa-code"></i> See the Source Code</a>
                             </div><!--//item-->
                             <hr class="divider" />
+
+                            <div class="item row">
+                                <a class="col-md-4 col-sm-4 col-xs-12" href="http://github.com/chrizandr/ITS_Feedback" target="_blank">
+                                <img class="img-responsive project-image" src="assets/images/critique.jpg" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-sm-8 col-xs-12">
+                                    <h3 class="title"><a href="http://github.com/chrizandr/ITS_Feedback" target="_blank">Critique</a></h3>
+                                    <p>Django based application that communicates with an Android app to collect feedback for various courses offered in an institute.
+                                        It generates useful visualisations and uses natural language processing to understand the collected feedback and give insights to user</p>
+                                    <p><a class="more-link" href="http://github.com/chrizandr/ITS_Feedback" target="_blank"><i class="fa fa-external-link"></i> Find out more</a></p>
+                                </div><!--//desc-->
+                            </div><!--//item-->
+
                             <div class="item row">
                                 <a class="col-md-4 col-sm-4 col-xs-12" href="http://github.com/chrizandr/semantic_web" target="_blank">
                                 <img class="img-responsive project-image" src="assets/images/semweb.png" alt="project name" />
@@ -175,15 +188,12 @@
                 <section class="github section">
                     <div class="section-inner">
                         <h2 class="heading">My GitHub</h2>
-
-                        <div id="ghfeed" class="ghfeed">
-                        </div>
-
-                        <div class="calendar">
-                            <!-- Loading stuff -->
-                            Loading the data.
-                        </div>
-
+                            <div id="ghfeed" class="ghfeed">
+                            </div>
+                            <div id="github-grap" class="github-grap">
+                                <!-- Loading stuff -->
+                                Loading the data.
+                            </div>
                     </div><!--//secton-inner-->
                 </section><!--//section-->
             </div><!--//primary-->
@@ -406,7 +416,7 @@
     <script type="text/javascript" src="assets/js/main.js"></script>
     <script src="https://cdn.rawgit.com/IonicaBizau/github-calendar/gh-pages/dist/github-calendar.min.js"></script>
     <script>
-        GitHubCalendar(".calendar", "chrizandr");
+        GitHubCalendar(".github-grap", "chrizandr");
     </script>
 
 </body>
